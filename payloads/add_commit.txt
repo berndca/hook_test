@@ -1,0 +1,221 @@
+{ "after" : "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+  "before" : "d0098f6622e4f91fd444fa9d7f5586b87e0af689",
+  "commits" : [ { "added" : [ "ASTsupport/Makefile.in",
+            "ASTsupport/astsupport.g",
+            "ASTsupport/astsupport.py"
+          ],
+        "author" : { "email" : "design@berndmeyer.com",
+            "name" : "Bernd Meyer",
+            "username" : "berndca"
+          },
+        "committer" : { "email" : "design@berndmeyer.com",
+            "name" : "Bernd Meyer",
+            "username" : "berndca"
+          },
+        "distinct" : true,
+        "id" : "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+        "message" : "Updated README and added ASTsupport directory with 3 files.",
+        "modified" : [ "README.md" ],
+        "removed" : [  ],
+        "timestamp" : "2012-09-06T07:00:56-07:00",
+        "url" : "https://github.com/berndca/hook_test/commit/6bfaae38dcc9a83d5008e6a3053349e3258336be"
+      } ],
+  "compare" : "https://github.com/berndca/hook_test/compare/d0098f6622e4...6bfaae38dcc9",
+  "created" : false,
+  "deleted" : false,
+  "forced" : false,
+  "head_commit" : { "added" : [ "ASTsupport/Makefile.in",
+          "ASTsupport/astsupport.g",
+          "ASTsupport/astsupport.py"
+        ],
+      "author" : { "email" : "design@berndmeyer.com",
+          "name" : "Bernd Meyer",
+          "username" : "berndca"
+        },
+      "committer" : { "email" : "design@berndmeyer.com",
+          "name" : "Bernd Meyer",
+          "username" : "berndca"
+        },
+      "distinct" : true,
+      "id" : "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+      "message" : "Updated README and added ASTsupport directory with 3 files.",
+      "modified" : [ "README.md" ],
+      "removed" : [  ],
+      "timestamp" : "2012-09-06T07:00:56-07:00",
+      "url" : "https://github.com/berndca/hook_test/commit/6bfaae38dcc9a83d5008e6a3053349e3258336be"
+    },
+  "pusher" : { "email" : "design@berndmeyer.com",
+      "name" : "berndca"
+    },
+  "ref" : "refs/heads/master",
+  "repository" : { "created_at" : "2012-09-06T06:54:18-07:00",
+      "description" : "",
+      "fork" : false,
+      "forks" : 0,
+      "has_downloads" : true,
+      "has_issues" : true,
+      "has_wiki" : true,
+      "name" : "hook_test",
+      "open_issues" : 0,
+      "owner" : { "email" : "design@berndmeyer.com",
+          "name" : "berndca"
+        },
+      "private" : false,
+      "pushed_at" : "2012-09-06T07:01:18-07:00",
+      "size" : 0,
+      "stargazers" : 0,
+      "url" : "https://github.com/berndca/hook_test",
+      "watchers" : 0
+    }
+}
+
+GET https://api.github.com/repos/berndca/hook_test/commits/6bfaae38dcc9a83d5008e6a3053349e3258336be
+
+
+ -- response --
+200 OK
+Server:  nginx/1.0.13
+Date:  Thu, 06 Sep 2012 14:15:07 GMT
+Content-Type:  application/json; charset=utf-8
+Transfer-Encoding:  chunked
+Connection:  keep-alive
+Status:  200 OK
+Etag:  "91a39f516c64465a7669534bad69e104"
+Last-Modified:  Thu, 06 Sep 2012 14:00:56 GMT
+Cache-Control:  public, s-maxage=60, max-age=60
+X-Content-Type-Options:  nosniff
+Vary:  Accept
+X-RateLimit-Limit:  5000
+X-RateLimit-Remaining:  4999
+Content-Encoding:  gzip
+{
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/3a90a2072fa32035016c5cc3c8584367?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "url": "https://api.github.com/users/berndca",
+    "gravatar_id": "3a90a2072fa32035016c5cc3c8584367",
+    "login": "berndca",
+    "id": 466654
+  },
+  "parents": [
+    {
+      "url": "https://api.github.com/repos/berndca/hook_test/commits/d0098f6622e4f91fd444fa9d7f5586b87e0af689",
+      "sha": "d0098f6622e4f91fd444fa9d7f5586b87e0af689"
+    }
+  ],
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/3a90a2072fa32035016c5cc3c8584367?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "url": "https://api.github.com/users/berndca",
+    "gravatar_id": "3a90a2072fa32035016c5cc3c8584367",
+    "login": "berndca",
+    "id": 466654
+  },
+  "commit": {
+    "author": {
+      "date": "2012-09-06T07:00:56-07:00",
+      "name": "Bernd Meyer",
+      "email": "design@berndmeyer.com"
+    },
+    "comment_count": 0,
+    "tree": {
+      "url": "https://api.github.com/repos/berndca/hook_test/git/trees/22dc7ae29889ea189f8b65c2cc741159ef49f899",
+      "sha": "22dc7ae29889ea189f8b65c2cc741159ef49f899"
+    },
+    "message": "Updated README and added ASTsupport directory with 3 files.",
+    "committer": {
+      "date": "2012-09-06T07:00:56-07:00",
+      "name": "Bernd Meyer",
+      "email": "design@berndmeyer.com"
+    },
+    "url": "https://api.github.com/repos/berndca/hook_test/git/commits/6bfaae38dcc9a83d5008e6a3053349e3258336be"
+  },
+  "files": [
+    {
+      "filename": "ASTsupport/Makefile.in",
+      "blob_url": "https://github.com/berndca/hook_test/blob/6bfaae38dcc9a83d5008e6a3053349e3258336be/ASTsupport/Makefile.in",
+      "status": "added",
+      "patch": "@@ -0,0 +1,83 @@\n+## This file is part of ANTLR (http://www.antlr.org).  Have a\n+## look into LICENSE.txt for  license  details. This file has \n+## been written by (C) Wolfgang Haefelinger, 2004.\n+\n+## do not change this value \n+subdir=examples/python/ASTsupport\n+\n+## get  configured  (standard) variables - checkout or modify\n+## scripts/config.vars[.in] for details.\n+@stdvars@\n+\n+### how to get rid of damned dos line ending style and -- al-\n+### most equally worse -- stupid tab character.\n+### dos2unix  = perl -p -i.tmp -e 's,\\r,,g;s,\\t, ,g' \n+dos2unix = :\n+\n+### when running python we invoke python like ..\n+python    = /bin/sh @abs_this_builddir@/scripts/python.sh\n+\n+## get configured rules\n+@stdmake@\n+\n+## By default we compile class files so we are ready to carry\n+## out a test. Note that deps have been setup in such a way\n+## that you can do a 'make compile' whithout having made \n+## antlr.jar before. \n+this : compile\n+all  :: compile\n+\n+\n+g_FILES  = \\\n+ $(_srcdir)/astsupport.g \\\n+ $(eol)\n+\n+g_py_FILES = \\\n+ ASTsupportParser.py \\\n+ $(eol)\n+\n+compile : $(g_py_FILES)\n+\n+%.py : $(_srcdir)/%.py\n+\t@-@RMF@ $@ && @CP@ $< $@\n+\n+\n+test :: test1\n+\n+test1_deps = \\\n+\tastsupport.py \\\n+\t$(g_py_FILES) \\\n+\t$(buildtree)/scripts/python.sh \\\n+\t$(eol)\n+\n+test1_cmd = \\\n+\t$(python) astsupport.py \\\n+\t$(eol)\n+\n+test1 : $(test1_deps)\n+\t@ $(test1_cmd)\n+\n+$(g_py_FILES) : $(g_FILES)\n+\t@ @RMF@ $(g_py_FILES)\n+\t@ @ANTLR_COMPILE_CMD@ $(g_FILES)\n+\t@ $(dos2unix) $(g_py_FILES)\n+\n+$(g_py_FILES) : @ANTLR_JAR@\n+$(g_py_FILES) : $(buildtree)/scripts/antlr.sh\n+\n+### cleanup astsupport\n+clean ::\n+\t@@ECHO@ cleaning astsupport ...\n+\t@ -@RMF@ $(g_py_FILES)\n+\t@ -@RMF@ *.pyc *.tmp *TokenTypes.txt *TokenTypes\n+\n+\n+\n+### get configured dependencies - for example, just list\n+### autoconf variable ANTLR_JAR as reference and it will\n+### be  done  automatically  as stddeps contains appropr.\n+### rule. For details, checkout scripts/config.vars[.in] \n+@stddeps@\n+\n+.PHONY: compile\n+.PHONY: test1",
+      "changes": 83,
+      "deletions": 0,
+      "additions": 83,
+      "sha": "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+      "raw_url": "https://github.com/berndca/hook_test/raw/6bfaae38dcc9a83d5008e6a3053349e3258336be/ASTsupport/Makefile.in"
+    },
+    {
+      "filename": "ASTsupport/astsupport.g",
+      "blob_url": "https://github.com/berndca/hook_test/blob/6bfaae38dcc9a83d5008e6a3053349e3258336be/ASTsupport/astsupport.g",
+      "status": "added",
+      "patch": "@@ -0,0 +1,166 @@\n+// This file is part of PyANTLR. See LICENSE.txt for license\n+// details..........Copyright (C) Wolfgang Haefelinger, 2004.\n+//\n+// $Id$\n+\n+options {\n+    language=Python;\n+}\n+\n+class ASTsupportParser extends Parser;\n+options {\n+    buildAST = true;\n+}\n+\n+/*  Test the equals, equalsSubtree, and findAll methods plus AST enumeration.\n+ *  The output should be: \n+    t is  ( = a 1 )\n+    u is  ( = b )\n+    v is  ( = 4 )\n+    w is  =\n+    \n+    t.equalsTree(t) is true\n+    t.equalsTree(u) is false\n+    t.equalsTree(v) is false\n+    t.equalsTree(w) is false\n+    t.equalsTree(null) is false\n+    \n+    t.equalsTreePartial(t) is true\n+    t.equalsTreePartial(u) is false\n+    t.equalsTreePartial(v) is false\n+    t.equalsTreePartial(w) is true\n+    t.equalsTreePartial(null) is true\n+    \n+    a is  ( A ( B C ( A B ) ) ( A B ) ( F ( A B ) ) ( A ( A B ) ) ) J\n+    \n+                  A---------------------J\n+                  |\n+                  B-----A-----F----A\n+                  |     |     |    |\n+                  C--A  B     A    A\n+                     |        |    |\n+                     B        B    B\n+    \n+    x is second sibling of upperleftmost A:  ( A B ) ( F ( A B ) ) ( A ( A B ) )\n+    y is child B of x:  B\n+    x.equalsTree(#(A B)) is true\n+    x.equalsList(#(A B)) is false\n+    x.equalsListPartial(#(A B)) is true\n+    a.equalsTree(#(A B)) is false\n+    a.equalsTreePartial(#(A B)) is true\n+    y.equalsList(#[B]) is true\n+    y.equalsListPartial(#[B]) is true\n+    \n+    a.findAllPartial(#(A B)):\n+     ( A ( B C ( A B ) ) ( A B ) ( F ( A B ) ) ( A ( A B ) ) ) J\n+     ( A B )\n+     ( A B ) ( F ( A B ) ) ( A ( A B ) )\n+     ( A B )\n+     ( A B )\n+    \n+    a.findAllPartial(#[A])):\n+     ( A ( B C ( A B ) ) ( A B ) ( F ( A B ) ) ( A ( A B ) ) ) J\n+     ( A B )\n+     ( A B ) ( F ( A B ) ) ( A ( A B ) )\n+     ( A B )\n+     ( A ( A B ) )\n+     ( A B )\n+    \n+    a.findAll(#(A B)):\n+     ( A B )\n+     ( A B ) ( F ( A B ) ) ( A ( A B ) )\n+     ( A B )\n+     ( A B )\n+    \n+    \n+    Test results:\n+    equalsTree is ok\n+    equalsTreePartial is ok\n+    equalsList is ok\n+    equalsListPartial is ok\n+ */\n+\n+{\n+    def main(self):\n+        astFactory = antlr.ASTFactory()\n+        t = #([ASSIGN,\"=\"], [ID,\"a\"], [INT,\"1\"])\n+        print(\"t is \" + t.toStringList())\n+        u = #([ASSIGN,\"=\"], [ID,\"b\"])\n+        print(\"u is \" + u.toStringList())\n+        v = #([ASSIGN,\"=\"], [INT,\"4\"])\n+        print(\"v is \" + v.toStringList())\n+        w = #[ASSIGN,\"=\"]\n+        print(\"w is \" + w.toStringList())\n+        print(\"\")\n+        r1=t.equalsTree(t);print \"t.equalsTree(t) is \",r1\n+        r2=t.equalsTree(u);print \"t.equalsTree(u) is \",r2\n+        r3=t.equalsTree(v);print \"t.equalsTree(v) is \",r3\n+        r4=t.equalsTree(w);print \"t.equalsTree(w) is \",r4\n+        r5=t.equalsTree(None);print \"t.equalsTree(None) is \",r5\n+        print(\"\")\n+        r6=t.equalsTreePartial(t);print \"t.equalsTreePartial(t) is \",r6\n+        r7=t.equalsTreePartial(u);print \"t.equalsTreePartial(u) is \",r7\n+        r8=t.equalsTreePartial(v);print \"t.equalsTreePartial(v) is \",r8\n+        r9=t.equalsTreePartial(w);print \"t.equalsTreePartial(w) is \",r9\n+        r10=t.equalsTreePartial(None);print \"t.equalsTreePartial(None) is \",r10\n+        print(\"\")\n+        a = #(None,\n+                    ([A,\"A\"],\n+                        ([B,\"B\"], [C,\"C\"], ([A,\"A\"],[B,\"B\"])),\n+                        ([A,\"A\"],[B,\"B\"]),\n+                        ([F,\"F\"], #([A,\"A\"], [B,\"B\"])),\n+                        ([A,\"A\"], #([A,\"A\"], [B,\"B\"]))),\n+                    [J,\"J\"]) \n+        print(\"a is \"+a.toStringList()+\"\\n\")\n+        print(\"              A---------------------J\")\n+        print(\"              |\")\n+        print(\"              B-----A-----F----A\")\n+        print(\"              |     |     |    |\")\n+        print(\"              C--A  B     A    A\")\n+        print(\"                 |        |    |\")\n+        print(\"                 B        B    B\\n\")\n+        x = a.getFirstChild().getNextSibling()\n+        print(\"x is second sibling of upperleftmost A: \"+x.toStringList())\n+        y = a.getFirstChild().getNextSibling().getFirstChild()\n+        print(\"y is child B of x: \"+y.toStringList())\n+        r11=x.equalsTree(#([A,\"A\"],[B,\"B\"]));print \"x.equalsTree(#(A B)) is \",r11\n+        r12=x.equalsList(#([A,\"A\"],[B,\"B\"]));print \"x.equalsList(#(A B)) is \",r12\n+        r13=x.equalsListPartial(#([A,\"A\"],[B,\"B\"]));print \"x.equalsListPartial(#(A B)) is \",r13\n+        r14=a.equalsTree(#([A,\"A\"],[B,\"B\"]));print \"a.equalsTree(#(A B)) is \",r14\n+        r15=a.equalsTreePartial(#([A,\"A\"],[B,\"B\"]));print \"a.equalsTreePartial(#(A B)) is \",r15\n+        r16=y.equalsList(#[B,\"B\"]);print \"y.equalsList(#[B]) is \",r16\n+        r17=y.equalsList(#[B,\"B\"]);print \"y.equalsListPartial(#[B]) is \",r17\n+        print(\"\\na.findAllPartial(#(A B)):\")\n+        enum = a.findAllPartial(#([A,\"A\"],[B,\"B\"]))\n+        for e in enum:  print (e.toStringList())\n+        print(\"\\na.findAllPartial(#[A])):\")\n+        enum = a.findAllPartial(#[A,\"A\"])\n+        for e in enum:  print (e.toStringList())\n+        print(\"\\na.findAll(#(A B)):\")\n+        enum = a.findAll(#([A,\"A\"],[B,\"B\"]))\n+        for e in enum:  print (e.toStringList())\n+        print(\"\\nTest results:\")\n+        if r1 and not r2 and not r3 and not r4 and \\\n+           not r5 and r11 and not r14:\n+            print(\"equalsTree is ok\")\n+        else:\n+            print(\"equalsTree is bad\")\n+        if r6 and not r7 and not r8 and r9 and r10:\n+            print(\"equalsTreePartial is ok\")\n+        else:\n+            print(\"equalsTreePartial is bad\")\n+        if not r12 and r16:\n+            print(\"equalsList is ok\")\n+        else :\n+            print(\"equalslist is bad\")\n+        if r13 and r17:\n+            print(\"equalsListPartial is ok\")\n+        else :\n+            print(\"equalslistPartial is bad\")\n+\n+}\n+\n+defTokenTypes\n+    :   ID INT ASSIGN PLUS A B C D E F G H I J K\n+    ;\n+",
+      "changes": 166,
+      "deletions": 0,
+      "additions": 166,
+      "sha": "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+      "raw_url": "https://github.com/berndca/hook_test/raw/6bfaae38dcc9a83d5008e6a3053349e3258336be/ASTsupport/astsupport.g"
+    },
+    {
+      "filename": "ASTsupport/astsupport.py",
+      "blob_url": "https://github.com/berndca/hook_test/blob/6bfaae38dcc9a83d5008e6a3053349e3258336be/ASTsupport/astsupport.py",
+      "status": "added",
+      "patch": "@@ -0,0 +1,107 @@\n+import sys\n+import antlr\n+\n+version = sys.version.split()[0]\n+if version < '2.2.1':\n+    False = 0\n+if version < '2.3':\n+    True = not False\n+\n+class MyAST(antlr.CommonAST): pass\n+\n+class ASTType49(antlr.CommonAST): pass\n+\n+\n+\n+\n+def testDefaultCreate():\n+   t =factory.create()\n+   return checkNode(t, antlr.CommonAST, antlr.INVALID_TYPE)\n+\n+\n+def testSpecificHomoCreate() :\n+   ### class names as strings not supported\n+   factory.setASTNodeClass(MyAST)\n+   t = factory.create()\n+   factory.setASTNodeClass(antlr.CommonAST)\n+   return checkNode(t, MyAST, antlr.INVALID_TYPE)\n+\n+\n+def testDynamicHeteroCreate() :\n+    factory.setTokenTypeASTNodeType(49,ASTType49)\n+    t = factory.create(49)\n+    a = checkNode(t, ASTType49, 49)\n+    u = factory.create(55)\n+    b = checkNode(u,antlr.CommonAST, 55)\n+    v = factory.create(49,\"\",MyAST)\n+    c = checkNode(v, MyAST, 49)\n+    factory.setTokenTypeASTNodeType(49,None)\n+    return a and b and c\n+  \n+\n+def testNodeDup() :\n+    t = factory.create()\n+    a = t.equals(antlr.dup(t,factory))\n+    b = not t.equals(None)\n+    u = factory.create(49,\"\",ASTType49)\n+    c = checkNode(antlr.dup(u,factory),ASTType49, 49)\n+    d = u.equals(antlr.dup(u,factory))\n+    return a and b and c and d\n+\n+def testHeteroTreeDup() :\n+    x = factory.create(1,\"[type 1]\",MyAST) ## will be root\n+    y = factory.create(2,\"[type 2]\",MyAST)\n+    z = factory.create(3,\"[type 3]\",MyAST)\n+    sub = factory.create(49,\"[type 49]\",ASTType49)\n+    sub.addChild(factory.create(3,\"[type 3 #2]\",MyAST))\n+    t = antlr.make(x,y,sub,z)\n+    dup_t = antlr.dupList(t,factory)\n+    ## check structure\n+    a = dup_t.equalsList(t)\n+    ## check types\n+    b = equalsNodeTypesList(t,dup_t)\n+    return a and b \n+\n+def checkNode(t,c, tokenType) :\n+   if not t:\n+      return False\n+   if t.__class__ != c:\n+      return False\n+\n+   if t.getType()!=tokenType:\n+      return False\n+    \n+   return True \n+  \n+\n+def equalsNodeTypesList(this, t) :\n+   return antlr.cmptree(this,t,partial=False)\n+\n+def error(test) :\n+    print \"Test \"+test+\" FAILED\"\n+\n+def success(test) :\n+    print \"Test \"+test+\" succeeded\"\n+\n+if __name__ == \"__main__\" :\n+   factory = antlr.ASTFactory()\n+\n+   funcs = [\n+      testDefaultCreate,\n+      testSpecificHomoCreate,\n+      testDefaultCreate,\n+      testSpecificHomoCreate,\n+      testNodeDup,\n+      testHeteroTreeDup\n+      ]\n+\n+   for f in funcs:\n+      if f():\n+         success(f.__name__)\n+      else:\n+         error(f.__name__)\n+          \n+   import ASTsupportParser\n+   P = ASTsupportParser.Parser()\n+\n+   P.main()",
+      "changes": 107,
+      "deletions": 0,
+      "additions": 107,
+      "sha": "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+      "raw_url": "https://github.com/berndca/hook_test/raw/6bfaae38dcc9a83d5008e6a3053349e3258336be/ASTsupport/astsupport.py"
+    },
+    {
+      "filename": "README.md",
+      "blob_url": "https://github.com/berndca/hook_test/blob/6bfaae38dcc9a83d5008e6a3053349e3258336be/README.md",
+      "status": "modified",
+      "patch": "@@ -1,2 +1,3 @@\n-hook_test\n-=========\n\\ No newline at end of file\n+hook_test\r\n+=========\r\n+testing post-commit hook service.\n\\ No newline at end of file",
+      "changes": 5,
+      "deletions": 2,
+      "additions": 3,
+      "sha": "6bfaae38dcc9a83d5008e6a3053349e3258336be",
+      "raw_url": "https://github.com/berndca/hook_test/raw/6bfaae38dcc9a83d5008e6a3053349e3258336be/README.md"
+    }
+  ],
+  "url": "https://api.github.com/repos/berndca/hook_test/commits/6bfaae38dcc9a83d5008e6a3053349e3258336be",
+  "stats": {
+    "total": 361,
+    "deletions": 2,
+    "additions": 359
+  },
+  "sha": "6bfaae38dcc9a83d5008e6a3053349e3258336be"
+}
+
+Created tag and pushed with git push --tags
+webhook callback for tag event occurs BEFORE regular commit if combined.
+
+{ "after" : "638a3a838e74e7b8428a1634f7774a8149964c9f",
+  "before" : "0000000000000000000000000000000000000000",
+  "commits" : [  ],
+  "compare" : "https://github.com/berndca/hook_test/compare/v0.1",
+  "created" : true,
+  "deleted" : false,
+  "forced" : true,
+  "head_commit" : null,
+  "pusher" : { "email" : "design@berndmeyer.com",
+      "name" : "berndca"
+    },
+  "ref" : "refs/tags/v0.1",
+  "repository" : { "created_at" : "2012-09-06T06:54:18-07:00",
+      "description" : "",
+      "fork" : false,
+      "forks" : 0,
+      "has_downloads" : true,
+      "has_issues" : true,
+      "has_wiki" : true,
+      "language" : "Python",
+      "name" : "hook_test",
+      "open_issues" : 0,
+      "owner" : { "email" : "design@berndmeyer.com",
+          "name" : "berndca"
+        },
+      "private" : false,
+      "pushed_at" : "2012-09-06T07:35:57-07:00",
+      "size" : 132,
+      "stargazers" : 0,
+      "url" : "https://github.com/berndca/hook_test",
+      "watchers" : 0
+    }
+}
