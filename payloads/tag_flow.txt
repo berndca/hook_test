@@ -1,0 +1,26 @@
+webhook for tag event
+tag.sha: 638a3a838e74e7b8428a1634f7774a8149964c9f
+
+https://api.github.com/repos/berndca/hook_test/git/tags/638a3a838e74e7b8428a1634f7774a8149964c9f
+tag.commit: 6bfaae38dcc9a83d5008e6a3053349e3258336be => store in repo db
+
+tag name = v0.1, this is the first tag
+
+Get archive of first tag: 
+
+https://api.github.com/repos/berndca/hook_test/tarball/v0.1
+
+Second tag: v0.11
+tag.sha: 9d7f9aba16881c691671799b076b9aa116e179b8
+
+https://api.github.com/repos/berndca/hook_test/git/tags/9d7f9aba16881c691671799b076b9aa116e179b8
+tag.commit: 3f73fc3dafbd9123822828f847e8481ef842af1d => store in repo db
+
+load sha of previous tag: 6bfaae38dcc9a83d5008e6a3053349e3258336be
+
+get difference between tags
+
+https://api.github.com/repos/berndca/hook_test/compare/6bfaae38dcc9...3f73fc3dafbd
+
+use file[i].patch to generate new versions
+
